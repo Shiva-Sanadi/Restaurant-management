@@ -1,0 +1,37 @@
+.cart__wrapper {
+    position: fixed;
+    width: 90%;
+    top: 10rem;
+    right: 0rem;
+    border-radius: 12px;
+    background-color:#343434 ;
+    border: 1px solid gray;
+    padding: 10px;
+    z-index: 10;
+  }
+  
+  .cart__innerWrapper {
+    text-align: center;
+    height: max-content;
+    max-height: 50vh;
+    overflow-y: auto;
+    color:#fff;
+  }
+  
+  .Cart__cartTotal {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+  }
+  
+  .fa-times-circle {
+    color: gray;
+    font-size: 2rem;
+    /* transition: transform 0.2s linear; */
+  }
+  
+  .fa-times-circle:hover {
+    transform: rotate(90deg);
+    color: white;
+  }
