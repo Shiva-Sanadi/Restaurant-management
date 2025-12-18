@@ -1,8 +1,9 @@
+// src/components/AddToCart/Componentss/Addtocart.js
 import { useContext, useEffect,useState } from "react";
 import "./Addtocart.css";
 import CartContext from "../context/cart/CartContext";
 import formatCurrency from "format-currency";
-import CartItem from "./CartItems";
+import CartItem from "./CartItem";
 import {useNavigate } from 'react-router-dom';
 // =================================
 import loadStripe from "stripe";
@@ -94,80 +95,6 @@ const Cart = () => {
     }
   } 
 
-    
-//     const response = await fetch("http://localhost:5000/api/cart/:id", {
-//       method: 'POST',
-//       headers: {
-//         'Content-Type': 'application/json'
-//       },
-      
-//       body: JSON.stringify({
-//         userId:localStorage.getItem("userId"),
-        
-//         items:[{ 
-//         productId : cartItems.id, 
-//         name:cartItems.name,   
-//         quantity:cartItems.quantity,
-//         price:cartItems.price
-//       }],
-//         bill:cartItems.price*cartItems.quantity,
-//         // email: userEmail,
-//         // date: new Date().toDateString()
-//       }),
-      
-//     });
-// // =====================
-//     const data = await response.json()
-//     console.log(data)
-// // ===================
-//     console.log("JSON RESPONSE:::::", response.status)
-//     if (data.status === 200) {
-//       alert("cart added successfully");
-
-//       navigate("/");
-
-//     }else{
-//       alert("something went wrong");
-//     }
-  
-// =================================================
-// const handleCheckOut = () => {
-//   axios
-//     .post("http://localhost:5000/api/cart/:id", {
-//       cartItems,
-//       userId: user._id,
-//     })
-//     .then((response) => {
-//       if (response.data.url) {
-//         window.location.href = response.data.url;
-//       }
-//     })
-//     .catch((err) => console.log(err.message));
-// };
-
-
-  // ============================================ chatgpt
-  // const handleAddToCart = (product) => {
-  //   // Make a POST request to the backend API to add the item to the cart
-  //   fetch('/api/cart/add', {
-  //     method: 'POST',
-  //     headers: {
-  //       'Content-Type': 'application/json',
-  //     },
-  //     body: JSON.stringify({
-  //       productId: product.id,
-  //       quantity: 1, // Assuming we always add a single quantity at a time
-  //     }),
-  //   })
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       // Handle the response from the server
-  //       console.log(data); // You can customize this based on your needs
-  //     })
-  //     .catch((error) => {
-  //       console.error('Error:', error);
-  //     });
-  // };
 
   return (
     <>

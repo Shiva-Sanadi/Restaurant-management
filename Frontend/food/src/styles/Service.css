@@ -1,0 +1,220 @@
+
+/* ============================================
+   SERVICES STYLES
+   ============================================ */
+/* File: src/pages/Service.css */
+.services-section {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.service-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: var(--transition);
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.service-icon-wrapper {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 25px;
+  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+}
+
+.service-card h3 {
+  font-size: 24px;
+  color: var(--dark-color);
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.service-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: transparent;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.service-btn:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+.additional-services {
+  margin-bottom: 80px;
+}
+
+.additional-services h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.special-services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.special-service-card {
+  background: white;
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.service-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.service-header .large-icon {
+  font-size: 60px;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.service-description {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.service-features {
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.service-features li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  color: var(--dark-color);
+}
+
+.service-features .material-symbols-outlined {
+  color: var(--success-color);
+}
+
+.service-cta-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.service-cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 107, 53, 0.3);
+}
+
+.service-process h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.process-timeline {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.process-step {
+  text-align: center;
+  position: relative;
+}
+
+.step-number {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 20px;
+  background: var(--primary-color);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.process-step .material-symbols-outlined {
+  font-size: 50px;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.process-step h4 {
+  color: var(--dark-color);
+  margin-bottom: 10px;
+}
+
+.process-step p {
+  color: #666;
+  font-size: 14px;
+}
+
+.service-cta-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 60px 40px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+}
+
+.cta-content h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.cta-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}

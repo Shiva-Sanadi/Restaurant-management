@@ -3,6 +3,7 @@ import React from 'react'
 import {useForm} from 'react-hook-form'
 import {useNavigate} from 'react-router-dom'
 import axios from 'axios';
+import '../index.css';
 function Payment(props) {
     const { register,handleSubmit,formState:{errors}}=useForm();
     const navigate=useNavigate()
@@ -79,21 +80,3 @@ function Payment(props) {
   }
   
   export default Payment;
-
-// //   css
-// .body{
-//     background-color: #0C4160	;
-// }
-
-// .pyform{
-//     background-color: white;
-//     font-family: 'Montserrat', sans-serif;
-//     border-radius: 3px;
-// }
-// .com{
-//     font-family: 'Montserrat', sans-serif;
-//     background-color: #0C4160;
-// }
-// .lbc{
-//     font-family: 'Montserrat', sans-serif;
-// }

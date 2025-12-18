@@ -1,8 +1,6 @@
+// src/components/Cart.js
 import React, { createContext, useEffect, useReducer ,useContext} from 'react';
 
-import Menu from '../apis/menuapi';//
-import Contextcart from './Contextcart'; 
-// import Items from './Items';
 import { reducer } from './Reducer';
 
 export const CartContext = createContext();

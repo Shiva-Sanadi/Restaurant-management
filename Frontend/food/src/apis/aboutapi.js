@@ -1,19 +1,19 @@
 const aboutapi = [
-    {
-        id:1,
-        title:"Traditional food",
-        info:"aaa sss ddd fff ggg hhh jjj  kkk lll ;;; qqq www eee rrr ttt yyy uuu iii ooo ppp zzz xxx ccc vv bb nnn mm",
-    },
-    {
-        id:2,
-        title:"Serving Finest",
-        info:"We offer Full-Service catering for any Event, Large or Small. We Understand your needs and we will cater food to satishfy the Biggest Critaria of them all both Look and Taste.",
-    },
-    {
-        id:3,
-        title:"Located in heart of city",
-        info:"aaa sss ddd fff ggg hhh jjj  kkk lll ;;; qqq www eee rrr ttt yyy uuu iii ooo ppp zzz xxx ccc vv bb nnn mm",
-    },
+  {
+    id: 1,
+    title: "Authentic Traditional Food",
+    info: "We bring you the true taste of tradition with recipes passed down through generations, prepared using fresh ingredients and time-hon forwarding cooking methods.",
+  },
+  {
+    id: 2,
+    title: "Serving the Finest Quality",
+    info: "From intimate gatherings to large celebrations, we provide full-service catering with exceptional presentation, rich flavors, and attention to every detail.",
+  },
+  {
+    id: 3,
+    title: "Located in the Heart of the City",
+    info: "Conveniently situated in the city center, our restaurant offers easy access, a warm ambiance, and the perfect place to enjoy memorable dining experiences.",
+  },
 ];
 
 export default aboutapi;

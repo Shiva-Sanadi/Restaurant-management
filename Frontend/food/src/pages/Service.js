@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import workapi from '../apis/workApi';
+import '../index.css';
 const Service = () => {
     const [workData, setWorkData] = useState(workapi);
   // console.log(setWorkData);
@@ -8,7 +9,7 @@ const Service = () => {
          <section className='background'>
         <div className='work-container container'>
             <h1 className='main-heading text-center'>Our Services</h1>
-                <div className='row'>
+                <div className='row g-4'>
                 {
                   workData.map((curElem)=>{
                     const {id, logo, title, info} = curElem;

@@ -1,0 +1,102 @@
+
+/*   ABOUT US 
+=============================================== */
+
+
+/* ===== Common Section ===== */
+.common-section {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+
+/* ===== Main Heading ===== */
+.main-heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #1d2671;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.main-heading::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: #c33764;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/* ===== About Image ===== */
+.our-service-leftside-img img {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== Services List ===== */
+.our-services-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ===== Service Info Row ===== */
+.our-services-info {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+/* ===== Number Badge ===== */
+.our-services-number {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #1d2671, #c33764);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+/* ===== Text Content ===== */
+.our-services-data h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1d2671;
+  margin-bottom: 8px;
+}
+
+.main-hero-para {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 992px) {
+  .our-service-leftside-img {
+    margin-bottom: 40px;
+  }
+
+  .main-heading {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 576px) {
+  .our-services-data h2 {
+    font-size: 18px;
+  }
+
+  .main-hero-para {
+    font-size: 14px;
+  }
+}

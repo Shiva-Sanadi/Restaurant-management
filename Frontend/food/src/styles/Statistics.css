@@ -1,0 +1,47 @@
+
+/* ============================================
+   STATISTICS STYLES
+   ============================================ */
+/* File: src/components/Statistics.css */
+.statistics-section {
+  padding: 60px 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.stat-icon {
+  margin-bottom: 20px;
+}
+
+.stat-icon .material-symbols-outlined {
+  font-size: 60px;
+  opacity: 0.9;
+}
+
+.stat-number {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.stat-description {
+  font-size: 14px;
+  opacity: 0.9;
+}

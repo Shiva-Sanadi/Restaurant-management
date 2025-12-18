@@ -1,14 +1,18 @@
+// src/pages/Errors.js
 import React from 'react';
-import Nav from '../components/Nav';
-import Error from '../components/Error';
-import Footer from '../components/Footer';
+import { NavLink } from 'react-router-dom';
+import '../index.css';
 
 const Errors = () => {
   return (
     <>
-    <Nav/>
-    <Error/>
-    <Footer/>
+    <div className='error'>
+         <div class="card ">
+        <h1>Error <span>Page Not Found</span></h1>
+        
+        <button > <NavLink to="/home"/>Go to Home </button>
+    </div>
+    </div>
     </>
   )
 }

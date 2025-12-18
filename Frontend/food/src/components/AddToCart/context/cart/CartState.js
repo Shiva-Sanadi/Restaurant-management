@@ -1,3 +1,4 @@
+// src/components/AddToCart/context/cart/CartState.js
 import { useReducer,useEffect } from "react";
 import CartContext from "./CartContext";
 import CartReducer from "./CartReducer";
@@ -14,6 +15,8 @@ const CartState = ({ children }) => {
 
   const [state, dispatch] = useReducer(CartReducer, initalState);
 
+/*************  ✨ Windsurf Command ⭐  *************/
+/*******  a827b9a7-a8c8-478c-a045-476228ddeddd  *******/
   const addToCart = (item) => {
     dispatch({ type: ADD_TO_CART, payload: item });
   };

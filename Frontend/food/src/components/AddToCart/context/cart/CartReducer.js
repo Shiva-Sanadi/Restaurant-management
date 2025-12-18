@@ -1,3 +1,4 @@
+// src/components/AddToCart/context/cart/CartReducer.js
 import { SHOW_HIDE_CART, ADD_TO_CART, REMOVE_ITEM,CLEAR_CART ,INCREMENT,DECREMENT, GET_TOTAL } from "../Types";
 
 const CartReducer = (state, action) => {

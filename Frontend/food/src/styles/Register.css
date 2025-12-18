@@ -1,0 +1,112 @@
+
+/* ===== Register Container ===== */
+.register {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+/* ===== Heading ===== */
+.register h1 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+/* ===== Form Box ===== */
+.register form {
+  background: #ffffff;
+  width: 100%;
+  max-width: 450px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* ===== Input Fields ===== */
+.register input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.register input:focus {
+  border-color: #2c5364;
+  box-shadow: 0 0 6px rgba(44, 83, 100, 0.4);
+}
+
+/* ===== Submit Button ===== */
+.register .hero-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* ===== Primary Button ===== */
+.register .red-btn {
+  background: #2c5364;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.register .red-btn:hover {
+  background: #1b3a4b;
+}
+
+/* ===== Login Link Button ===== */
+.register a.btn-primary {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  text-align: center;
+  background: #0f2027;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+.register a.btn-primary:hover {
+  background: #09161c;
+}
+
+/* ===== Close Button ===== */
+.register .close-btn {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 22px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  cursor: pointer;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 576px) {
+  .register h1 {
+    font-size: 26px;
+  }
+
+  .register form {
+    padding: 25px 20px;
+  }
+}
+
