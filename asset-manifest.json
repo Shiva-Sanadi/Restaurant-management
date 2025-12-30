@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Restaurant-management/static/css/main.82531c67.css",
+    "main.js": "/Restaurant-management/static/js/main.92306fdb.js",
+    "static/media/add-table-header.jpg": "/Restaurant-management/static/media/add-table-header.cf5e29a9c1e4555b40a9.jpg",
+    "index.html": "/Restaurant-management/index.html",
+    "main.82531c67.css.map": "/Restaurant-management/static/css/main.82531c67.css.map",
+    "main.92306fdb.js.map": "/Restaurant-management/static/js/main.92306fdb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82531c67.css",
+    "static/js/main.92306fdb.js"
+  ]
+}
