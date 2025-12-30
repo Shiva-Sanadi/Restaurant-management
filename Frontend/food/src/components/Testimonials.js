@@ -8,34 +8,35 @@ import '../index.css';
 
 const Testimonials = () => {
   const testimonials = [
-    {
-      id: 1,
-      name: 'Sarah Johnson',
-      role: 'Food Blogger',
-      image: './images/user1.jpg',
-      rating: 5,
-      text: 'Absolutely amazing experience! The food quality is outstanding and the service is impeccable. Highly recommend the chef\'s special.',
-      date: '2 weeks ago'
-    },
-    {
-      id: 2,
-      name: 'Michael Chen',
-      role: 'Business Owner',
-      image: './images/user2.jpg',
-      rating: 5,
-      text: 'Best restaurant in town! We ordered catering for our corporate event and everyone loved it. Professional service and delicious food.',
-      date: '1 month ago'
-    },
-    {
-      id: 3,
-      name: 'Emily Davis',
-      role: 'Teacher',
-      image: './images/user3.jpg',
-      rating: 5,
-      text: 'The ambiance is perfect for family dinners. My kids love the food here and we visit every weekend. Great value for money!',
-      date: '3 weeks ago'
-    }
-  ];
+  {
+    id: 1,
+    name: 'Sachin Kumar',
+    role: 'Food Blogger',
+    image: `${process.env.PUBLIC_URL}/images/user1.jpg`,
+    rating: 5,
+    text: 'Absolutely amazing experience! The food quality is outstanding and the service is impeccable.',
+    date: '2 weeks ago'
+  },
+  {
+    id: 2,
+    name: 'Mahesh Sharma',
+    role: 'Business Owner',
+    image: `${process.env.PUBLIC_URL}/images/user2.jpg`,
+    rating: 5,
+    text: 'Best restaurant in town! Professional service and delicious food.',
+    date: '1 month ago'
+  },
+  {
+    id: 3,
+    name: 'Prashant Verma',
+    role: 'Teacher',
+    image: `${process.env.PUBLIC_URL}/images/user3.jpg`,
+    rating: 5,
+    text: 'Perfect place for family dinners. Great value for money!',
+    date: '3 weeks ago'
+  }
+];
+
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
