@@ -35,28 +35,7 @@ const UserSchema = new mongoose.Schema({
         type:Date,
         default:Date.now
     },
-    // message:[
-    //     {
-    //         name:{
-    //             type: String,
-    //             required:true
-    //         },
-            
-    //         email:{
-    //             type: String,
-    //             required:true
-    //         },
-    //         phone:{
-    //             type: String,
-    //             required:true
-    //         },
-    //         message:{
-    //             type: String,
-    //             required:true
-    //         },
-
-    //     }
-    // ],
+    
     tokens:[
         {
             token:{

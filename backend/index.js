@@ -52,7 +52,7 @@ const middleware = (req,res,next) =>{
 // ==================================
 
 // ============== routes
-app.use('/api/',require("./Routes/CreateUser"));
+app.use('/api/',require("./Routes/UserRoutes"));
 
 app.use('/api/',require("./Routes/Contacts"));
 app.use('/api/',require("./Routes/RegisterRoutes"));

@@ -1,28 +1,3 @@
-// const Mongoose = require('mongoose');
-// const { Schema } = Mongoose;
-
-// // Order Schema
-// const OrderSchema = new Schema({
-//   cart: {
-//     type: Schema.Types.ObjectId,
-//     ref: 'Cart'
-//   },
-//   user: {
-//     type: Schema.Types.ObjectId,
-//     ref: 'User'
-//   },
-//   total: {
-//     type: Number,
-//     default: 0
-//   },
-//   updated: Date,
-//   created: {
-//     type: Date,
-//     default: Date.now
-//   }
-// });
-
-// module.exports = Mongoose.model('Order', OrderSchema);
 
 
 const mongoose = require('mongoose');
@@ -41,18 +16,7 @@ const OrderSchema = new Schema({
         unique:true
     },
     items:{type:Array},
-    // items: [{
-    //     id: {
-    //         type: String,
-    //     },
-    //     name:{ type:String},
-    //     quantity: {
-    //         type: Number,
-    //         required: true,
-    //         min: [1, 'Quantity can not be less then 1.']
-    //     },
-    //     price: {type:Number}
-    // }],
+
     bill: {
         type: Number,
         required: true

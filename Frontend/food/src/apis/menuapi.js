@@ -1,7 +1,156 @@
+// const Menu = [
+//   {
+//     id: 1,
+//     image: "./images/dosa.jpg",
+//     name: "Plain Dosa",
+//     category: "breakfast",
+//     price: 40,
+//     description: "Crispy South Indian dosa served hot with coconut chutney and sambar.",
+//     quantity: 1,
+//   },
+//   {
+//     id: 2,
+//     image: "./images/curd-ricee.jpg",
+//     name: "Curd Rice",
+//     category: "lunch",
+//     price: 80,
+//     description: "Comforting curd rice tempered with mustard seeds and curry leaves.",
+//     quantity: 1,
+//   },
+//   {
+//     id: 3,
+//     image: "./images/gobhi.jpg",
+//     name: "Gobi Manchurian",
+//     category: "evening",
+//     price: 50,
+//     description: "Crispy fried cauliflower tossed in spicy Indo-Chinese sauce.",
+//     quantity: 1,
+//   },
+//   {
+//     id: 4,
+//     image: "./images/idli.jpg",
+//     name: "Steamed Idli",
+//     category: "breakfast",
+//     price: 40,
+//     description: "Soft and fluffy idlis served with fresh chutney and hot sambar.",
+//     quantity: 1,
+//   },
+//   {
+//     id: 5,
+//     image: "./images/meals.jpg",
+//     name: "South Indian Meals",
+//     category: "lunch",
+//     price: 140,
+//     description: "Traditional full meal with rice, curries, sambar, rasam and dessert.",
+//     quantity: 1,
+//   },
+//   {
+//     id: 6,
+//     image: "./images/momos.jpg",
+//     name: "Veg Momos",
+//     category: "evening",
+//     price: 45,
+//     description: "Steamed dumplings stuffed with fresh vegetables and spices.",
+//     quantity: 1,
+//   },
+//   {
+//     id: 7,
+//     image: "./images/puri.jpg",
+//     name: "Puri Bhaji",
+//     category: "breakfast",
+//     price: 40,
+//     description: "Fluffy puris served with flavorful potato masala.",
+//     quantity: 1,
+//   },
+//   {
+//     id: 8,
+//     image: "./images/thali.jpg",
+//     name: "Special Veg Thali",
+//     category: "lunch",
+//     price: 150,
+//     description: "A complete platter featuring assorted curries, rice, roti and sweets.",
+//     quantity: 1,
+//   },
+//   {
+//     id: 9,
+//     image: "./images/pakoda.jpg",
+//     name: "Pakoda",
+//     category: "evening",
+//     price: 30,
+//     description: "Crispy deep-fried snacks perfect with evening tea.",
+//     quantity: 1,
+//   },
+//   {
+//     id: 10,
+//     image: "./images/veg-biriyani2.jpg",
+//     name: "Veg Biryani",
+//     category: "lunch",
+//     price: 140,
+//     description: "Aromatic basmati rice cooked with fresh vegetables and spices.",
+//     quantity: 1,
+//   },
+//   {
+//     id: 11,
+//     image: "./images/veg-biriyani.jpg",
+//     name: "Chicken Seekh Shawarma",
+//     category: "lunch",
+//     price: 199,
+//     description: "Juicy chicken seekh wrapped in pita bread with garlic sauce and hummus.",
+//     quantity: 1,
+//   },
+//   {
+//     id: 12,
+//     image: "https://apipics.s3.amazonaws.com/mexican_api/1.jpg",
+//     name: "Refried Beans",
+//     category: "breakfast",
+//     price: 200,
+//     description: "Creamy Mexican-style refried beans seasoned to perfection.",
+//     quantity: 1,
+//   },
+//   {
+//     id: 13,
+//     image: "https://apipics.s3.amazonaws.com/mexican_api/3.jpg",
+//     name: "Fish Cake Tacos",
+//     category: "breakfast",
+//     price: 105,
+//     description: "Crispy fish cakes served in soft tacos with fresh toppings.",
+//     quantity: 1,
+//   },
+//   {
+//     id: 14,
+//     image: "./images/pakoda.jpg",
+//     name: "Tea",
+//     category: "drinks",
+//     price: 30,
+//     description: "Refreshing hot tea brewed with aromatic Indian spices.",
+//     quantity: 1,
+//   },
+//   {
+//     id: 15,
+//     image: "./images/pakoda.jpg",
+//     name: "Coffee",
+//     category: "drinks",
+//     price: 30,
+//     description: "Strong and flavorful South Indian filter coffee.",
+//     quantity: 1,
+//   },
+// ];
+
+// export default Menu;
+
+
+
+
+
+
+
+
+
+
 const Menu = [
   {
     id: 1,
-    image: "./images/dosa.jpg",
+    image: `${process.env.PUBLIC_URL}/images/dosa.jpg`,
     name: "Plain Dosa",
     category: "breakfast",
     price: 40,
@@ -10,7 +159,7 @@ const Menu = [
   },
   {
     id: 2,
-    image: "./images/curd-ricee.jpg",
+    image: `${process.env.PUBLIC_URL}/images/curd-ricee.jpg`,
     name: "Curd Rice",
     category: "lunch",
     price: 80,
@@ -19,7 +168,7 @@ const Menu = [
   },
   {
     id: 3,
-    image: "./images/gobhi.jpg",
+    image: `${process.env.PUBLIC_URL}/images/gobhi.jpg`,
     name: "Gobi Manchurian",
     category: "evening",
     price: 50,
@@ -28,7 +177,7 @@ const Menu = [
   },
   {
     id: 4,
-    image: "./images/idli.jpg",
+    image: `${process.env.PUBLIC_URL}/images/idli.jpg`,
     name: "Steamed Idli",
     category: "breakfast",
     price: 40,
@@ -37,7 +186,7 @@ const Menu = [
   },
   {
     id: 5,
-    image: "./images/meals.jpg",
+    image: `${process.env.PUBLIC_URL}/images/meals.jpg`,
     name: "South Indian Meals",
     category: "lunch",
     price: 140,
@@ -46,7 +195,7 @@ const Menu = [
   },
   {
     id: 6,
-    image: "./images/momos.jpg",
+    image: `${process.env.PUBLIC_URL}/images/momos.jpg`,
     name: "Veg Momos",
     category: "evening",
     price: 45,
@@ -55,7 +204,7 @@ const Menu = [
   },
   {
     id: 7,
-    image: "./images/puri.jpg",
+    image: `${process.env.PUBLIC_URL}/images/puri.jpg`,
     name: "Puri Bhaji",
     category: "breakfast",
     price: 40,
@@ -64,7 +213,7 @@ const Menu = [
   },
   {
     id: 8,
-    image: "./images/thali.jpg",
+    image: `${process.env.PUBLIC_URL}/images/thali.jpg`,
     name: "Special Veg Thali",
     category: "lunch",
     price: 150,
@@ -73,7 +222,7 @@ const Menu = [
   },
   {
     id: 9,
-    image: "./images/pakoda.jpg",
+    image: `${process.env.PUBLIC_URL}/images/pakoda.jpg`,
     name: "Pakoda",
     category: "evening",
     price: 30,
@@ -82,7 +231,7 @@ const Menu = [
   },
   {
     id: 10,
-    image: "./images/veg-biriyani2.jpg",
+    image: `${process.env.PUBLIC_URL}/images/veg-biriyani2.jpg`,
     name: "Veg Biryani",
     category: "lunch",
     price: 140,
@@ -91,7 +240,7 @@ const Menu = [
   },
   {
     id: 11,
-    image: "./images/veg-biriyani.jpg",
+    image: `${process.env.PUBLIC_URL}/images/veg-biriyani.jpg`,
     name: "Chicken Seekh Shawarma",
     category: "lunch",
     price: 199,
@@ -118,7 +267,7 @@ const Menu = [
   },
   {
     id: 14,
-    image: "./images/pakoda.jpg",
+    image: `${process.env.PUBLIC_URL}/images/pakoda.jpg`,
     name: "Tea",
     category: "drinks",
     price: 30,
@@ -127,7 +276,7 @@ const Menu = [
   },
   {
     id: 15,
-    image: "./images/pakoda.jpg",
+    image: `${process.env.PUBLIC_URL}/images/pakoda.jpg`,
     name: "Coffee",
     category: "drinks",
     price: 30,

@@ -67,7 +67,8 @@ const Header = () => {
           
           <div className='col-12 col-lg-6 hero-image-section'>
             <div className='hero-image-wrapper'>
-              <img src='./images/bg3.jpg' alt='Delicious Food' className='hero-main-image'/>
+              {/* <img src='./images/bg3.jpg' alt='Delicious Food' className='hero-main-image'/> */}
+              <img src={`${process.env.PUBLIC_URL}/images/bg3.jpg`} alt='Delicious Food' className='hero-main-image'/>
               <div className='floating-card card-1'>
                 <span className='material-symbols-outlined'>star</span>
                 <div>
